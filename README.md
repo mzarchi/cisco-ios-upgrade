@@ -25,7 +25,7 @@ Sw(config-if) # no shutdown
 
 <br />
 
-وارد محیط enable سوییچ شده و دستورات زیر را  وارد کنید و منتظر بمانید تا ios از FTP به روی سوییچ انتقال یابد:
+- وارد محیط enable سوییچ شده و دستورات زیر را  وارد کنید و منتظر بمانید تا ios از FTP به روی سوییچ انتقال یابد:
 ```
 Sw # copy ftp: flash:
 Address or name of remote host []? 10.10.10.20
