@@ -8,10 +8,11 @@ Sw(config-line) # password 12345
 Sw(config-line) # login local
 Sw(config-line) # transport input all
 ```
-\n
+<br />
+
 - بعد از این مرحله با دستور interface vlan 1  در محیط configure وارد تنظیمات آن می‌شویم و دستورات زیر را  وارد می‌کنیم:
 ```
 Sw(config-if) # ip address 10.10.10.10 255.255.255.0
 Sw(config-if) # no shutdown
 ```
-\n
+<br />
