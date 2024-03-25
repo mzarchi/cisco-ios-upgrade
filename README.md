@@ -32,3 +32,31 @@ Address or name of remote host []? 10.10.10.20
 Source filename []? <ios-name.extention>
 Destination filename [<ios-name.extention>] ? Enter
 ```
+
+<br />
+
+- سپس دستورات زیر را در محیط **configure** وارد میکنیم:
+```
+Sw(config) # boot system flash:packages.conf
+Sw(config) # no boot manual
+Sw(config) # do write
+```
+
+<br />
+
+- سپس به محیط **enable** رفته و برای نصب **ios** دستور زیر را وارد می‌کنیم:
+```
+Sw # install add file flash: <ios-name.extention> activate commit
+```
+
+<br />
+
+- بعد از وارد کردن دستور بالا سوییچ از شما دوسوال میپرسد که به ترتیب زیر میباشدو هدف آن
+تایید از کاربر جهت نصب و اکتیو **ios** میباشد.
+```
+Performing Activate on all members
+    [1] Activate package(s) on Switch 1 -> Insert 1 and Enter
+
+Performing Commit on all members
+    [1] Commit package(s) on Switch 1 -> Insert 1 and Enter
+```
