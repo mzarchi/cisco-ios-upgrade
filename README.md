@@ -1,7 +1,7 @@
 # آموزش بروزرسانی / آپدیت IOS سوییچ Cisco
 ## لیست سوییچ‌هایی که با این روش بروزرسانی می‌شود:
-- *Cisco Catalyst 9200*
-- *Cisco Catalyst 9300* 
+- *Cisco Catalyst **9200** Series Switches*
+- *Cisco Catalyst **9300** Series Switches* 
 ##
 - ابتدا وارد محیط **configure** شده و دستورات زیر را وارد می‌کنید:
 ```
