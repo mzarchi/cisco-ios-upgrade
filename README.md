@@ -60,3 +60,13 @@ Performing Activate on all members
 Performing Commit on all members
     [1] Commit package(s) on Switch 1 -> Insert 1 and Enter
 ```
+
+<br />
+
+- در این مرحله ios به درستی نصب شده و باید فایل های اضافی ios قبلی را از روی سوییچ حذف کرد، برای این منظور می توان از دستور ```install remove inactive``` در محیط **enable** استفاده کنید، بعد از وارد کردن این دستور از شما سوالی مانند زیر می پرسد:
+
+```
+Do you want to remove the above files? [y/n] -> Insert y and Enter
+```
+
+بعد از وارد کردن y به سوال بالا، فایل های اضافی درون حافظه سوییچ پاک می شود، برای استفاده از نسخه جدید باید سوییچ را **reload** کنید، در ضمن برای بررسی شماره نسخه می توانید از دستور ```show version``` استفاده کنید.
