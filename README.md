@@ -1,4 +1,8 @@
 # آموزش بروزرسانی / آپدیت IOS سوییچ Cisco
+## لیست سوییچ‌هایی که با این روش بروزرسانی می‌شود:
+- *Cisco Catalyst 9200*
+- *Cisco Catalyst 9300* 
+##
 - ابتدا وارد محیط **configure** شده و دستورات زیر را وارد می‌کنید:
 ```
 Sw(config) # username test secret 12345
